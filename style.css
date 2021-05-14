@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,12 +13,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
 }
 
 #topline {
-  border: 10px solid whitesmoke;
+  border: 1px solid whitesmoke;
   border-radius: 5px;
   width: 80%;
   top: 30px;
@@ -25,6 +26,7 @@ body {
 h1 {
   color: rgb(99, 72, 4);
   font-style: italic;
+  font-family: Montserrat;
   font-size: 7rem;
   text-shadow: 5px 5px 5px darkslategray;
   margin: 0 50px;
@@ -37,7 +39,38 @@ h3 {
   max-width: 80%;
 }
 
-/* .btn Raleway 200 */
+.carousel {
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+  height: 550px;
+  width: 700px;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: teal;
+  color: #fff;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  width: 49.7%;
+}
 
 @media (max-width: 825px) {
   body {
