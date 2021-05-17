@@ -53,7 +53,7 @@ h3 {
 }
 
 img {
-  width: 700px;
+  width: 700px; /*  MULTIPLY by idx FOR SLIDING */
   height: 500px;
   object-fit: cover;
 }
@@ -70,6 +70,15 @@ img {
   padding: 20px;
   cursor: pointer;
   width: 49.7%;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 @media (max-width: 825px) {
