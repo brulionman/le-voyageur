@@ -21,4 +21,4 @@ This is basic JavaScript educational project.
 - Pictures credits are inserted into html as their alternative desciption.
 
 <br>
-brulionman 05/21
+brulionman 05/21 (+04/25) 
